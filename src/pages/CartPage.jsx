@@ -43,6 +43,10 @@ function CartPage() {
             <p>Quantity: {product.quantity}</p>
           </div>
         );
+        <Link to="/">
+          {" "}
+          <button>Back to shop</button>
+        </Link>;
       })}
     </div>
   );
